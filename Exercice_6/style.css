@@ -1,0 +1,21 @@
+.bkImgText, .corps-lien {
+  background: url("https://source.unsplash.com/WLUHO9A_xik/1600x900"); }
+
+.bkImgTitr, .monTitl {
+  background: url("https://tse1.mm.bing.net/th?id=OIP.iz3BIhEDAeeaFT8GVkixqgHaEK&pid=Api&P=0&w=340&h=192"); }
+
+.lien:hover {
+  background-color: goldenrod;
+  color: aqua;
+  text-shadow: 1px 1px black; }
+
+.corps-lien {
+  background-color: lightblue;
+  border: 2px dashed blue; }
+
+.partie .titre {
+  text-shadow: 1px 1px black;
+  color: darkslategray;
+  font-size: 2em; }
+
+/*# sourceMappingURL=style.css.map */

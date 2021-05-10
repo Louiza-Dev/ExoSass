@@ -1,0 +1,58 @@
+// créer mes mixins pour Exo2
+@mixin title-style {
+  font-family: cursive;
+  font-size: 3em;
+};
+@mixin text-style {
+  font-family: monospace;
+  font-size: 1em;
+}
+@mixin list-style {
+  color: darkslategray;
+  text-shadow: 1px 1px black;
+}
+// Déclaration de mes variables Color pou Exo1
+$h1Color: red;
+$h3Color: blue;
+$h4Color: green;
+$textColor: teal;
+$listeColor: brown;
+
+h1 {
+  @include title-style;
+  color: $h1Color;
+}
+h3 {
+  color: $h3Color;
+}
+h4 {
+  color: $h4Color;
+}
+p {
+  color: $textColor;
+  @include text-style;
+}
+// Exo3-4
+.par-1 {
+  color: $listeColor;
+  text-decoration: underline;
+}
+// exo4
+// crée une class à extender
+.txt-dcrt {
+  text-decoration: underline dotted red;
+  color: pink;
+}
+.liste {
+  @include list-style;
+  .scndListe {
+    @extend .txt-dcrt;
+  }
+}
+// Exo5
+.paragraphe {
+  background-color: lightgray;
+  &:hover {
+    color: rosybrown;
+  }
+}

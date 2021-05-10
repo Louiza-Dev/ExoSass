@@ -1,0 +1,34 @@
+h1 {
+  font-family: cursive;
+  font-size: 3em;
+  color: red; }
+
+h3 {
+  color: blue; }
+
+h4 {
+  color: green; }
+
+p {
+  color: teal;
+  font-family: monospace;
+  font-size: 1em; }
+
+.par-1 {
+  color: brown;
+  text-decoration: underline; }
+
+.txt-dcrt, .liste .scndListe {
+  text-decoration: underline dotted red;
+  color: pink; }
+
+.liste {
+  color: darkslategray;
+  text-shadow: 1px 1px black; }
+
+.paragraphe {
+  background-color: lightgray; }
+  .paragraphe:hover {
+    color: rosybrown; }
+
+/*# sourceMappingURL=style.css.map */
